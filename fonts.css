@@ -1,0 +1,20 @@
+@font-face {
+    font-family: hind-bold;
+    src: url(https://www.fashion2.softitglobal.xyz/backend/landing_page/fonts/HindSiliguri-Bold.ttf);
+}
+@font-face {
+    font-family: hind-light;
+    src: url(https://www.fashion2.softitglobal.xyz/backend/landing_page/fonts/HindSiliguri-Light.ttf);
+}
+@font-face {
+    font-family: hind-medium;
+    src: url(https://www.fashion2.softitglobal.xyz/backend/landing_page/fonts/HindSiliguri-Medium.ttf);
+}
+@font-face {
+    font-family: hind-semibold;
+    src: url(https://www.fashion2.softitglobal.xyz/backend/landing_page/fonts/HindSiliguri-SemiBold.ttf);
+}
+@font-face {
+    font-family: hind-regular;
+    src: url(https://www.fashion2.softitglobal.xyz/backend/landing_page/fonts/HindSiliguri-Regular.ttf);
+}
