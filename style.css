@@ -116,7 +116,7 @@
 .container .ani-btn-box .inner-padding .btn-danger{
     display: inline-block;
     line-height: 1;
-    background-color: #69727d;
+    background-color: #fc630a;
     font-size: 15px;
     padding: 12px 24px;
     border-radius: 3px;
@@ -129,7 +129,7 @@
     font-family: var(--bold), Sans-serif;
     font-size: 32px;
     font-weight: 700;
-    background-color: #ff730b;
+    background-color: #fc630a;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
     border-radius: 10px 10px 10px 10px;
@@ -140,7 +140,7 @@
     
 }
 .container .ani-btn-box .inner-padding .btn:hover{
-    background: var(--light-green);
+    background: #fc630a;
     transform: scale(0.9);
 }
 .top-div .element-shape{
@@ -1491,6 +1491,7 @@ ul li::before {
         padding: 10px !important;
     }
 
+    
     .right_side_details {
         padding: 10px !important;
     }
@@ -1987,12 +1988,11 @@ ul li::before {
 }
 .top_section{
     width: 85%;
-    border-radius: 10px;
     color: #ffffff; 
     font-size: 32px;
     font-family: 'Hind Siliguri', sans-serif !important;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0px;
 }
 .top_section_2{
     background: #ff730b;
@@ -2104,3 +2104,66 @@ ul li::before {
 .product-total {
     font-family: 'Hind Siliguri', sans-serif !important;
 }
+.old_price{
+    color: gray;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.new_price{
+    color: #000;
+    font-weight: bold;
+
+}
+.price_box{
+    width: 100%;
+    background: #000000c0;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+.price_box *{
+    color: white;
+}
+ul {
+    margin-bottom: 0px !important;
+}
+
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    top: 45%;
+}
+.owl-carousel .owl-nav .owl-next span, .owl-carousel .owl-nav .owl-prev span{
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 10px;
+}
+.owl-carousel .owl-nav .owl-prev{
+    left: 0;
+}
+.owl-carousel .owl-nav .owl-next{
+    right: 0;
+}
+.owl-theme .custom-nav {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+  }
+  .owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next {
+    position: absolute;
+    height: 100px;
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+  }
+  .owl-theme .custom-nav .owl-prev i, .owl-theme .custom-nav .owl-next i {
+    font-size: 2.5rem;
+    color: #cecece;
+  }
+  .owl-theme .custom-nav .owl-prev {
+    left: 0;
+  }
+  .owl-theme .custom-nav .owl-next {
+    right: 0;
+  }
