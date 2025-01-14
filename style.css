@@ -24,7 +24,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--regular);
+    font-family: var(--regular), sans-serif;
 }
 .text-vaiolat{
     color: var(--violate) !important;
@@ -2112,7 +2112,6 @@ ul li::before {
 .new_price{
     color: #000;
     font-weight: bold;
-
 }
 .price_box{
     width: 100%;
@@ -2166,4 +2165,58 @@ ul {
   }
   .owl-theme .custom-nav .owl-next {
     right: 0;
+  }
+  .product {
+    cursor: pointer;
+    position: relative;
+  }
+  .product .content p{
+    font-size: 18px;
+  }
+  .product .content *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .product .image{
+    position: relative;
+  }
+  .product .image::before{
+    content: "Add To Bag";
+    background: #00000093;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    display: none;
+  }
+  .product.active .image::before{
+    content: "Add To Bag";
+    background: #00000093;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+  }
+  @media (max-width: 769px) {
+      .product .content{
+          font-size: 13px;
+        }
+    .product .content p{
+        font-size: 14px;
+      }
+      .old_price{
+            font-size: 18px;
+        }
+        .new_price{
+            font-size: 22px;
+        }
   }
