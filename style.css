@@ -2193,7 +2193,7 @@ ul {
     font-size: 25px;
     display: none;
   }
-  .product.active .image::before{
+  .product.active .image::before, .product:hover .image::before{
     content: "Add To Bag";
     background: #00000093;
     color: white;
